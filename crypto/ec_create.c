@@ -1,11 +1,11 @@
 #include "hblk_crypto.h"
 
 /**
- * ec_create - creates new private/public key pair
- * Return: pointer to EC_KEY or NULL
+ * ec_create - create EC key pair
+ *
+ * Return: pointer to created EC_KEY struct
  */
 EC_KEY *ec_create(void)
-	
 {
 	EC_KEY *key;
 
