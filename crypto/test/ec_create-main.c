@@ -32,9 +32,4 @@ int main(void)
 
     return (EXIT_SUCCESS);
 
-A
-A
-A
-A
-A
 }
